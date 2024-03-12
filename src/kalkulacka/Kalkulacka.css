@@ -1,0 +1,21 @@
+#kalkulacka {
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+
+}
+#displej {
+   font-size: 35px; 
+   margin: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#tlacitka button {
+    font-weight: bold;
+    margin: 2px;
+    background-color: greenyellow;
+    border: 1px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    font-size: 30px;
+   
+}
