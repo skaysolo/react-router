@@ -11,14 +11,16 @@ export default function Layout() {
         <>
             <nav>
                 <ul>
-                    <Link style={{margin: 85}}href="#" underline="hover" to="/"><MaterialUILink component="button" underline="none" variant="h5"><Button variant="outlined">Home</Button></MaterialUILink></Link>
-                    <Link style={{margin: 30}} href="#" underline="hover" to="/pocitadlo"><MaterialUILink component="button" underline="none" variant="h5"><Button variant="outlined">Počítadlo </Button></MaterialUILink></Link>
-                    <Link style={{margin: 30}} href="#" underline="hover" to="/kavy"><MaterialUILink component="button" underline="none" variant="h5"><Button variant="outlined">Seznam káv </Button></MaterialUILink></Link>
-                    <Link style={{margin: 30}} href="#" underline="hover" to="/ukolnicek"><MaterialUILink component="button" underline="none" variant="h5"><Button variant="outlined">Úkolníček (ještě není)</Button></MaterialUILink></Link>
-                    <Link style={{margin: 30 }} href="#" underline="hover" to="/kalkulacka"><MaterialUILink component="button" underline="none" variant="h5"><Button variant="outlined">Kalkulačka </Button></MaterialUILink></Link>
+                   <Button   underline="none" variant="h5" href="/react-router/#">Home</Button>
+                   <Button underline="none" variant="h5" href="/react-router/#/pocitadlo">Počítadlo </Button>
+                    <Button  underline="none" variant="h5" href="/react-router/#/kavy">Seznam kávy</Button>
+                    <Button underline="none" variant="h5" href="/react-router/#/ukolnicek">Úkolníček</Button>
+                    <Button  underline="none" variant="h5" href="/react-router/#/eshop">Eshop </Button>
+              <Button  underline="none" variant="h5" href="/react-router/#/kalkulacka">Kalkulačka</Button>
+                   <Button  underline="none" variant="h5" href="/react-router/#/oblibenabarva">Oblíbená barva</Button>
                 </ul>
             </nav>
-            <Outlet />
+          
         </>
     )
      }
