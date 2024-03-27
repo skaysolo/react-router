@@ -2,6 +2,8 @@
 import { useState } from "react";
 import CiselneTlacitko from "./CiselneTlacitko";
 import './Kalkulacka.css';
+import Alert from "@mui/material/Alert";
+
 function Kalkulacka() {
 
     const [cislo, nastavCislo] = useState("0");
@@ -30,6 +32,7 @@ vysledek = prvniCisloNum + cislo
     }
     return (
         <>
+        <Alert severity="success">Vše funguje</Alert>
             <div id="kalkulacka">
                 <div id="displej">{cislo}</div>
                 <div id="tlacitka">

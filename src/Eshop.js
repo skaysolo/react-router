@@ -4,6 +4,7 @@ import axios from "axios";
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import { Button } from "@mui/material";
+import Alert from "@mui/material/Alert";
  
  
 function App() {
@@ -37,6 +38,7 @@ function App() {
  
     return (
         <>
+          <Alert severity="success">Vše funguje</Alert>
             <Paper>
                 <Typography variant="subtitle1">
                     {cenaKosiku !== 0 && <span>Cena košíku je: {cenaKosiku} Kč</span>}

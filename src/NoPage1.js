@@ -1,5 +1,10 @@
+import Alert from "@mui/material/Alert";
+
+
 export default function NoPage() {
     return (
-        <h1>Error</h1>
+        <Alert variant="filled" severity="error">
+        Něco nefunguje..
+      </Alert>
     )
 };

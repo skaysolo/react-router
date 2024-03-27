@@ -3,6 +3,7 @@ import axios from "axios";
 import Paper from "@mui/material/Paper";
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import Alert from "@mui/material/Alert";
 
 
 
@@ -26,6 +27,7 @@ function App() {
 
     return (
         <>  
+        <Alert severity="success">Vše funguje</Alert>
         <Typography variant="button" fontSize={40}>COFFEE SHOP</Typography> <br></br>
            {vybranaKava != "" && <Typography variant="button" fontSize={20}>Vybraná káva je: {vybranaKava}</Typography>} <br></br>
             <Grid container spacing={1}>

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Alert from "@mui/material/Alert";
  
 function Pocitadlo() {
  
@@ -14,6 +15,7 @@ function Pocitadlo() {
  
     return (
         <>
+        <Alert severity="success">Vše funguje</Alert>
             { viditelnost &&
                 <div>
                     <h2 style={{ color: "green", fontSize: pocet }}>Font size: {pocet}</h2>
