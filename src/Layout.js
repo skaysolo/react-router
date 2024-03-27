@@ -16,13 +16,14 @@ export default function Layout(props) {
         <>
             <nav style={{color: props.vybranaBarva} }>
                 <ul>
-                   <Button  underline="none" variant="h5" href="/react-router/#">Home</Button>
+                   <Button  underline="none" variant="h5" href="/react-router/#">Home &#128205;</Button>
                    <Button underline="none" variant="h5" href="/react-router/#/pocitadlo">Počítadlo </Button>
                     <Button  underline="none" variant="h5" href="/react-router/#/kavy">Seznam kávy</Button>
                     <Button underline="none" variant="h5" href="/react-router/#/ukolnicek">Úkolníček</Button>
                     <Button  underline="none" variant="h5" href="/react-router/#/eshop">Eshop </Button>
               <Button  underline="none" variant="h5" href="/react-router/#/kalkulacka">Kalkulačka</Button>
                    <Button  underline="none" variant="h5" href="/react-router/#/oblibenabarva">Oblíbená barva</Button>
+                   <Button  underline="none" variant="h5" href="/react-router/#/omne">HODNOCENÍ &#128640;</Button>
                 </ul>
             </nav> 
           

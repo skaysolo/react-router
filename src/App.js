@@ -8,6 +8,7 @@ import Kavy from "./Kavy";
 import Kalkulacka from "./kalkulacka/Kalkulacka";
 import Eshop from "./Eshop";
 import OblibenaBarva from "./OblibenaBarva";
+import Omne from "./Omne";
 
 
 
@@ -27,6 +28,7 @@ export default function App() {
                     <Route path="/eshop" element={<Eshop />} />
                     <Route path="/kalkulacka" element={<Kalkulacka />} />
                     <Route path="/oblibenabarva" element={<OblibenaBarva vybranaBarva={vybranaBarva} setVybranaBarva={setVybranaBarva} />} />
+                    <Route path="/omne" element={<Omne/>} />
                     <Route path="*" element={<NoPage />} />
             </Routes>
         </HashRouter>
